@@ -1,0 +1,107 @@
+body {
+    background-color: #0b1c14;
+    color: #e2e8f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+
+#principal-header {
+    background: linear-gradient(135deg, #064e3b, #022c22); 
+    border-bottom: 4px solid #10b981; 
+    color: #ffffff;
+}
+
+.text-success-light {
+    color: #34d399 !important;
+}
+
+.text-success-custom {
+    color: #10b981 !important;
+    font-weight: 700;
+}
+
+.bg-dark-green {
+    background-color: #022c22 !important;
+    border-bottom: 2px solid #059669;
+}
+
+.navbar-nav .nav-link {
+    color: #a7f3d0 !important;
+    font-weight: 500;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff !important;
+    background-color: #059669;
+}
+
+.bg-section-custom {
+    background-color: #112a20; 
+    border: 1px solid #1f4e3d;
+}
+
+.bg-aside-custom {
+    background: linear-gradient(145deg, #064e3b, #047857);
+    border: 1px solid #10b981;
+}
+
+.texto-descripcion {
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+    color: #d1fae5;
+}
+
+.texto-aside {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ecfdf5;
+}
+
+.lista-temas ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.lista-temas ul li {
+    margin-bottom: 8px;
+}
+
+.lista-temas ul li a {
+    color: #34d399;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.lista-temas ul li a:hover {
+    color: #6ee7b7;
+    text-decoration: underline;
+}
+
+.lista-aside {
+    padding-left: 18px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.tabla-personalizada th {
+    background-color: #064e3b !important;
+    color: #34d399 !important;
+    text-align: center;
+    border-bottom: 2px solid #10b981;
+}
+
+.tabla-personalizada td {
+    background-color: #0f291e !important;
+    color: #e2e8f0 !important;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#contacto {
+    border-top: 3px solid #10b981;
+}
